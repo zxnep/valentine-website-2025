@@ -8,13 +8,13 @@ const CONFIG = {
     valentineName: "Nicole",
 
     // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
+    // You can use emojis! 💝 💜 💗 💓 🐸 💕
     pageTitle: "Will You Be My Valentine? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['💜', '💖', '🐸', '💗', '💓'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you want me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I dont just want you i want you forever ❤️"           // Secret hover message
+            secretAnswer: "I dont just want you i want you forever 💜"           // Secret hover message
         },
         second: {
             text: "How much do you want me?",                          // For the love meter
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
+        title: "Yay! I'm the luckiest person in the world! 🎉💜💖💝💓",
         message: "Now come get your cuddles, kisses, snacks and blankets",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "🐸💖🤗💝💋🐸💕"  // These will bounce around
     },
 
     // Color scheme for the website
